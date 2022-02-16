@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.show-car {
+  height: 425px;
+}
+
+#ShowCar {
+  width: 100%;
+}
+
+.model-sum {
+  margin-top: 50px;
+  background-color: rgb(211, 211, 211);
+  width: 100%;
+  color: white;
+  height: 240px;
+  border-radius: 10px;
+  padding: 15px;
+
+}
+
+.model-sum p span {
+  margin-left: 5px;
+}
+
+
+.btn-order {
+  display: block;
+  margin-top: 5px;
+}
+
+.icon-car {
+  margin: 50px;
+}
+
+#icon-acura {
+  width: 100%;
+}
+
+#icon-alfa {
+  width: 100%;
+}
+
+#icon-bmw {
+  width: 100%;
+}
+
+#icon-aston-martin {
+  width: 100%;
+}
+
+#icon-land-rover {
+  width: 100%;
+}
+
+#icon-audi {
+  width: 100%;
+}
+
+.form-pacet {
+  margin-bottom: 100px;
+}
+
+.form-block{
+  margin-top: 15px;
+  font-size: 14px;
+
+}
+
+.form-block input {
+  margin-right: 10px;
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="show-car">
+        <div class="row">
+          <div class="col-lg-6 col-lg-offset-3">
+            <img src="./img/car/acura_PNG130.png" alt="" id="ShowCar" />
+          </div>
+          <div class="col-lg-3">
+            <div class="model-sum">
+              <p>Марка:<span id="holderMarka">Acura</span> </p> 
+              <p>Мотор:<span id="holderEnergy"></span></p>  
+              <p>Кородка:<span id="holderTranmisions"></span></p>  
+              <p>Пакет:<span id="holderPackege"></span> </p> 
+              <p>Ціна:<span id="holderPrice"></span> грн</p>
+              <p>Ціна:<span id="holderPriceUSD"></span> $</p>
+
+              <button class="btn btn-primary btn-order">Заказать</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="icon-car">
+        <div class="row">
+          <div class="col-lg-1 col-lg-offset-3">
+            <img
+              src="./img/icon/acura_PNG131.png"
+              alt=""
+              id="icon-acura"
+              class="btn-icon"
+              data-img-path="./img/car/acura_PNG130.png"
+              data-car-marka="Acura"
+            />
+          </div>
+          <div class="col-lg-1">
+            <img
+              src="./img/icon/alfa_romeo_PNG71.png"
+              alt=""
+              id="icon-alfa"
+              class="btn-icon"
+              data-img-path="./img/car/alfa_romeo_PNG75.png"
+              data-car-marka="Alfa-Romeo"
+            />
+          </div>
+          <div class="col-lg-1">
+            <img
+              src="./img/icon/bmw_PNG99567.png"
+              alt=""
+              id="icon-bmw"
+              class="btn-icon"
+              data-img-path="./img/car/bmw_PNG99558.png"
+              data-car-marka="BMW"
+            />
+          </div>
+          <div class="col-lg-1">
+            <img
+              src="./img/icon/aston_martin_PNG34.png"
+              alt=""
+              id="icon-aston-martin"
+              class="btn-icon"
+              data-img-path="./img/car/aston_martin_PNG45.png"
+              data-car-marka="Aston Martin"
+            />
+          </div>
+          <div class="col-lg-1">
+            <img
+              src="./img/icon/land_rover_PNG42.png"
+              alt=""
+              id="icon-land-rover"
+              class="btn-icon"
+              data-img-path="./img/car/land_rover_PNG54.png"
+              data-car-marka="Land Rover"
+            />
+          </div>
+          <div class="col-lg-1">
+            <img
+              src="./img/icon/audi.png"
+              alt=""
+              id="icon-audi"
+              class="btn-icon"
+              data-img-path="./img/car/audi_PNG99491.png"
+              data-car-marka="Audi"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-pacet">
+      <div class="row">
+        <form>
+          <div class="col-lg-3 col-lg-offset-2">
+            <h4>Двигун</h4>
+            <div class="form-block">
+              <input
+                  type="radio"
+                  name="energy"
+                  id="energy2000"
+                  value="186000"
+                  checked
+                />
+              <label for="energy2000">2.0 л (190 л.с.)</label>
+            </div>
+            <div class="form-block">
+              <input
+                  type="radio"
+                  name="energy"
+                  id="energy4000"
+                  value="326000"
+                />
+              <label for="energy4000">4.0 л (310 л.с.)</label>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h4>Коробка передач</h4>
+            <div class="form-block">
+              <input
+                type="radio"
+                name="tranmisions"
+                id="tranmisionsMex"
+                value="156000"
+                checked
+              />
+              <label for="tranmisionsMex">6-ступенева механічна </label>
+            </div>
+            <div class="form-block">
+              <input
+                type="radio"
+                name="tranmisions"
+                id="tranmisionsAvto"
+                value="176000"
+              />
+              <label for="tranmisionsAvto">7-ступенева автоматична</label>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h4>Коробка передач</h4>
+            <div class="form-block">
+              <input
+                  type="radio"
+                  name="packege"
+                  id="packegeStandart"
+                  value="56000"
+                  checked
+                />
+              <label for="packegeStandart">Стандарт</label>
+            </div>
+            <div class="form-block">
+              <input
+                type="radio"
+                name="packege"
+                id="packegeConfort"
+                value="97000"
+              />
+              <label for="packegeConfort">Конфорт</label>
+            </div>
+            <div class="form-block">
+              <input
+                type="radio"
+                name="packege"
+                id="packegePremium"
+                value="150000"
+              />
+              <label for="packegePremium">Преміюм</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
